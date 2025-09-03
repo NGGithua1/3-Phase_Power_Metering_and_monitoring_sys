@@ -2,7 +2,7 @@
 
 A complete system for real-time measurement, display, and control of three-phase power. This project combines **low-cost sensors**, **relay protection**, and **dual firmware paths**—STM32 HAL (C) and Arduino IDE (C++)—making it suitable for both **academic learning** and **industrial prototyping**.  
 
----
+
 
 ## 📌 Features
 - Measure voltage, current, and calculate power for each phase.  
@@ -13,7 +13,7 @@ A complete system for real-time measurement, display, and control of three-phase
   - **Arduino IDE (C++)**  
 - Modular hardware design with terminal blocks for safe and flexible connections.  
 
----
+
 
 ## ⚡ Quick Start  
 
@@ -28,7 +28,7 @@ A complete system for real-time measurement, display, and control of three-phase
 
 ⚠️ **Safety Note**: The system interfaces with 3-phase AC (400V). Always test with proper isolation, protective enclosures, and safety procedures.  
 
----
+
 
 ### Firmware Options  
 
@@ -44,7 +44,7 @@ A complete system for real-time measurement, display, and control of three-phase
   - `Adafruit_SSD1306`  
 - Select your board → upload the sketch.  
 
----
+
 
 ## 🔄 System Workflow
 1. Initialize OLED display and relays.  
@@ -54,14 +54,17 @@ A complete system for real-time measurement, display, and control of three-phase
 5. Apply relay logic if thresholds are exceeded.  
 6. Repeat continuously.  
 
----
+
 
 ## 📊 Example OLED Output
+
 Phase A: 220V 2.3A 506W
+
 Phase B: 218V 2.1A 458W
+
 Phase C: 221V 2.4A 530W
 
----
+
 
 ## 🚀 Future Extensions
 - Network integration (Wi-Fi / Ethernet) for remote monitoring.  
